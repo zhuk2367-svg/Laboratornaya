@@ -1,0 +1,48 @@
+// ===== ЛАБОРАТОРНАЯ РАБОТА MOVDINO =====
+// Создание игрового поля
+SIZE 12 12
+
+// Размещение динозавра в центре поля
+START 5 3
+
+// Базовые перемещения
+MOVE RIGHT
+MOVE DOWN
+PAINT b
+MOVE LEFT
+MOVE UP
+
+// Создание препятствий
+DIG DOWN
+MOUND RIGHT
+DIG LEFT
+MOUND UP
+
+// Прыжки через поле
+JUMP RIGHT 4
+PAINT r
+JUMP DOWN 2
+PAINT g
+
+// Работа с деревьями
+GROW LEFT
+GROW DOWN
+CUT DOWN
+
+// Работа с камнями  
+MAKE UP
+PUSH UP
+
+// Условные команды
+// IF CELL 9 3 IS r THEN MOVE LEFT
+// IF CELL 5 3 IS _ THEN PAINT y
+
+// Отмена последнего действия
+// UNDO
+
+// Демонстрация торической топологии
+MOVE LEFT
+MOVE LEFT
+MOVE LEFT
+MOVE LEFT
+JUMP UP 10
