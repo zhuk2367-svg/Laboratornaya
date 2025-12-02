@@ -1,12 +1,3 @@
-____________
-____________
-_____^______
-____%#^_____
-_____%b_____
-____&g______
-____________
-____________
-____________
-____________
-____________
-____________
+this is a simple test file for huffman encoding
+it contains several characters and repeated words
+we will use it to check the encoding and decoding process
